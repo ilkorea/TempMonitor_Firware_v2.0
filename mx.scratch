@@ -81,6 +81,9 @@
                                                     <name>../Middlewares/Third_Party/FatFs/src/option/syscall.c</name>
                                             </file>
                                             <file>
+                                                    <name>../Middlewares/Third_Party/FatFs/src/option/ccsbcs.c</name>
+                                            </file>
+                                            <file>
                                                     <name>../Middlewares/Third_Party/FatFs/src/diskio.c</name>
                                             </file>
                                             <file>
@@ -100,9 +103,6 @@
 						</file>
 						<file>
 							<name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c</name>
-						</file>
-						<file>
-							<name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c</name>
 						</file>
 						<file>
 							<name>../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c</name>

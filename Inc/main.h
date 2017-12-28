@@ -135,8 +135,9 @@
 #define nNTC_MUXEN3_GPIO_Port GPIOD
 #define SDIO_POWER_Pin GPIO_PIN_6
 #define SDIO_POWER_GPIO_Port GPIOC
-#define EXTI7_SDIO_DETECT_Pin GPIO_PIN_7
-#define EXTI7_SDIO_DETECT_GPIO_Port GPIOC
+#define SD_DECTECT_Pin GPIO_PIN_7
+#define SD_DECTECT_GPIO_Port GPIOC
+#define SD_DECTECT_EXTI_IRQn EXTI9_5_IRQn
 #define SDIO_D0_Pin GPIO_PIN_8
 #define SDIO_D0_GPIO_Port GPIOC
 #define SDIO_D1_Pin GPIO_PIN_9
@@ -145,6 +146,10 @@
 #define USB_TX_GPIO_Port GPIOA
 #define USB_RX_Pin GPIO_PIN_10
 #define USB_RX_GPIO_Port GPIOA
+#define USB_DM_Pin GPIO_PIN_11
+#define USB_DM_GPIO_Port GPIOA
+#define UDB_DP_Pin GPIO_PIN_12
+#define UDB_DP_GPIO_Port GPIOA
 #define SDIO_D2_Pin GPIO_PIN_10
 #define SDIO_D2_GPIO_Port GPIOC
 #define SDIO_D3_Pin GPIO_PIN_11
